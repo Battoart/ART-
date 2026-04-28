@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Joel Batto</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #0f0f0f;
+      color: #fff;
+    }
+    header {
+      padding: 20px;
+      display: flex;
+      justify-content: space-between;
+      border-bottom: 1px solid #222;
+    }
+    a { color: #aaa; text-decoration: none; }
+    a:hover { color: #fff; }
+
+    .hero {
+      padding: 80px 20px;
+      max-width: 1000px;
+      margin: auto;
+    }
+    .hero h1 {
+      font-size: 48px;
+      margin-bottom: 20px;
+    }
+    .hero p {
+      color: #bbb;
+      font-size: 18px;
+    }
+
+    .gallery {
+      max-width: 1100px;
+      margin: auto;
+      padding: 40px 20px;
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 20px;
+    }
+
+    .card {
+      background: #181818;
+      border-radius: 10px;
+      overflow: hidden;
+    }
+
+    .card img {
+      width: 100%;
+      height: 400px;
+      object-fit: cover;
+    }
+
+    .card-content {
+      padding: 15px;
+    }
+
+    .card h3 {
+      margin: 0 0 10px 0;
+    }
+
+    .card p {
+      margin: 5px 0;
+      color: #aaa;
+    }
+
+    footer {
+      text-align: center;
+      padding: 40px 20px;
+      border-top: 1px solid #222;
+      color: #777;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <div>Joel Batto</div>
+  <div>
+    <a href="https://instagram.com/battogram">@battogram</a>
+  </div>
+</header>
+
+<section class="hero">
+  <h1>Bold, expressive artwork</h1>
+  <p>From structured faces to fluid ocean energy and large-scale textured pieces.</p>
+</section>
+
+<section class="gallery">
+
+  <div class="card">
+    <img src="https://via.placeholder.com/600x800" alt="Amsterman">
+    <div class="card-content">
+      <h3>Amsterman</h3>
+      <p>Oil on canvas</p>
+      <p>100 x 100 cm</p>
+      <p>Sold — €2200</p>
+    </div>
+  </div>
+
+  <div class="card">
+    <img src="https://via.placeholder.com/600x800" alt="Drop the Anchor">
+    <div class="card-content">
+      <h3>Drop the Anchor</h3>
+      <p>Acrylic and resin</p>
+      <p>120 x 60 cm</p>
+      <p>Sold — €550</p>
+    </div>
+  </div>
+
+  <div class="card">
+    <img src="https://via.placeholder.com/600x800" alt="Minnie">
+    <div class="card-content">
+      <h3>Minnie</h3>
+      <p>Oil on canvas</p>
+      <p>250 x 250 cm</p>
+      <p>Sold — €3000</p>
+    </div>
+  </div>
+
+</section>
+
+<footer>
+  <p>Contact: battothere@hotmail.com</p>
+  <p>Amsterdam, Netherlands</p>
+</footer>
+
+</body>
+</html>
